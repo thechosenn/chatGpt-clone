@@ -1,0 +1,24 @@
+.navbar {
+    background-color: #000000; /* This is for the 'alt' background color; adjust as needed */
+    padding: 1rem 6%;
+    text-align: center;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16); /* Approximation of Material-UI's boxShadow 3 */
+    margin-bottom: 16px; /* Approximation of 'mb: 2' */
+}
+
+.navbar-title {
+    color: #03A9F4; /* Assuming this is your primary color */
+    font-weight: bold;
+    font-size: 40px; /* Based on your h1 typography */
+}
+
+.nav-link {
+    padding: 8px; /* Approximation of 'p={1}' */
+    color: inherit; /* This ensures the links use the parent color, adjust as needed */
+    text-decoration: none; /* Optional, to remove underline from links */
+    margin-right: 16px; /* Space between links, adjust as needed */
+}
+
+.nav-link:hover {
+    text-decoration: underline; /* Optional, for hover effect */
+}
