@@ -32,4 +32,4 @@ COPY --from=builder /usr/src/app .
 EXPOSE 8080
 
 # Define command to run the app
-CMD [ "node", "index.js" ]
+CMD [ "npm", "start" ]
