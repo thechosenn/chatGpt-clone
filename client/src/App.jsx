@@ -1,14 +1,15 @@
 import './App.css'
 import { Outlet } from 'react-router-dom'
 import { Toaster } from "react-hot-toast";
-import Navbar from "./components/navbar/Navbar";
+import LoginForm from './components/loginForm/LoginForm';
 
 function App() {
   return(
     <>
-      {/* <Toaster /> */}
+      <Toaster />
       {/* <p>Hello word</p> */}
       <Outlet/> 
+      <LoginForm />
     </>
   );
 }

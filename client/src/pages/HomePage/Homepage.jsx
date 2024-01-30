@@ -125,13 +125,19 @@ function Homepage() {
             </ul>
             <div className='buttom-section'>
               <div className='input-container'>
-                <input value={value} onChange={(e) => setValue(e.target.value)}/>
+                <input value={value} 
+                  onChange={(e) => setValue(e.target.value)}
+                  onKeyDown={(e) => {
+                      if (e.key === 'Enter') {
+                          setValue('') 
+                          getMessages();
+                        }
+                        }}
+                />
                 <div id='submit' onClick={getMessages}>➢</div>
               </div>
               <p className='info'>
-                Chat GPT Mar 14 Version. Free Research Preview. 
-                Our goal is to make Al systems more natural and safe to interact with.
-                Your feedback will help us improve.
+                ChatGPT can make mistakes. Consider checking important information. Implemented By The Chosen.
               </p>
             </div>
           </section>
