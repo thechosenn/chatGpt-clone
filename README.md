@@ -43,3 +43,5 @@ docker-compose up
 
 This README provides comprehensive instructions on how to clone, configure, build, and run your application using Docker, making it easier for users to get started with your project.
 
+## Author
+EL Mokhtar EL AASSAL - The chosen
